@@ -54,10 +54,10 @@
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value="WindowsPhone,Version=v8.1" />
     <build:Item Name="VisualStudio" Version="12.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2013" />
-    <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Express 2013 for Windows" />
+    <build:Item Name="OperatingSystem" Version="10.0.10074.0 (fbl_impressive.150424-1350)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.31101.0" />
     <build:Item Name="ProjectGUID" Value="{57E37911-A1EF-4AE0-8219-B62649883945}" />
-    <build:Item Name="MakePri.exe" Version="6.3.9600.17298 (winblue.141024-1500)" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
   </build:Metadata>
 </Package>

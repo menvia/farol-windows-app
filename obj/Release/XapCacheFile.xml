@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Farol Beacon_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="11/08/2015 02:18:16">
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="10/08/2015 20:54:19" />
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\Farol Beacon.dll" archivePath="Farol Beacon.dll" lastWriteTime="10/08/2015 23:09:13" />
+﻿<xapCache source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\Farol Beacon_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="11/08/2015 02:35:05">
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\resources.pri" archivePath="resources.pri" lastWriteTime="11/08/2015 02:35:00" />
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\obj\Release\Farol Beacon.dll" archivePath="Farol Beacon.dll" lastWriteTime="11/08/2015 02:34:56" />
   <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="02/06/2015 22:53:39" />
   <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="10/08/2015 19:28:26" />
   <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="10/08/2015 19:36:55" />
@@ -14,10 +14,10 @@
   <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="10/08/2015 19:47:46" />
   <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="10/08/2015 19:26:05" />
   <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Image\farol_logo.PNG" archivePath="Image\farol_logo.PNG" lastWriteTime="02/06/2015 23:40:10" />
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/08/2015 20:05:14" />
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="10/08/2015 19:36:08" />
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="10/08/2015 19:42:27" />
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/08/2015 20:05:14" />
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="11/08/2015 02:18:15" />
-  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="10/08/2015 20:54:19" />
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11/08/2015 02:35:05" />
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="10/08/2015 19:36:08" />
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="10/08/2015 19:42:27" />
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="11/08/2015 02:35:05" />
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\obj\Release\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="11/08/2015 02:35:05" />
+  <file source="C:\Users\fsple\Downloads\FarolBeacon (1)\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="11/08/2015 02:35:01" />
 </xapCache>

@@ -4,19 +4,19 @@
     <Machine>WIN-PPJLPIUD845</Machine>
     <WindowsUser>fsple</WindowsUser>
     <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
-    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>57e37911-a1ef-4ae0-8219-b62649883945</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\obj\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Farol Beacon.dll">
+    <AppxPackagedFile Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\Farol Beacon.dll">
       <PackagePath>Farol Beacon.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Assets\AlignmentGrid.png">
@@ -69,7 +69,7 @@
     <AppxPackagedFile Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Image\farol_logo.PNG">
       <PackagePath>Image\farol_logo.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\fsple\Downloads\FarolBeacon %281%29\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

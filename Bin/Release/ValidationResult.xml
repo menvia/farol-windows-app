@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\wp-results.xsl'?>
+<REPORT xml:lang="pt-BR" OVERALL_RESULT="PASS" VERSION="10.0" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="WindowsPhone" PUBLISHER_DISPLAY_NAME="CN=8F06549A-20D9-4C81-8ACD-6EBA18274FAD" APP_NAME="27555Menvia.Farol" APP_VERSION="1.0.0.0" OSVERSION="10.0.10074.0" OS="Microsoft Windows 10 Pro Insider Preview" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1046" VALIDATION_TYPE="UI" ReportGenerationTime="11/08/2015 02:35:42" ID="72c223bb7de62777beef8908cb70d5b0">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Teste de instalação limpa e reversível" RATIONALE="Uma instalação limpa e reversível permite aos usuários gerenciar (implantar e remover) com êxito os aplicativos em seu sistema." />
+    <REQUIREMENT NUMBER="2" TITLE="Instale nas pastas corretas de teste" RATIONALE="O Windows fornece os locais específicos no sistema de arquivos para armazenar componentes de programas e software, dados de aplicativos compartilhados e dados específicos do aplicativo para um usuário." />
+    <REQUIREMENT NUMBER="3" TITLE="Teste de arquivo assinado digitalmente" RATIONALE="Uma assinatura digital de Authenticode permite aos usuários ter certeza de que o software é autêntico. Também permite a detecção de um arquivo que tenha sido violado, como, por exemplo, infectado por um vírus." />
+    <REQUIREMENT NUMBER="4" TITLE="Suporte para teste do Windows x64" RATIONALE="Para manter a compatibilidade com as versões de 64 bits do Windows, é necessário que os aplicativos suportem aplicativos baseados no Windows de 64 bits ou, no mínimo, de 32 bits para executar diretamente o de 64 bits." />
+    <REQUIREMENT NUMBER="5" TITLE="Teste de verificação de versão do OS" RATIONALE="Os aplicativos não devem realizar verificações de versão para igualdade (== 5.1). Se precisar de um recurso específico, verifique se este está disponível. Se precisar do Windows XP, verifique Windows XP ou mais recentes (&gt;= 5.1); dessa maneira, seu código de detecção continuará a funcionar em versões posteriores do Windows. Os instaladores de drivers e os módulos de desinstalação nunca devem verificar a versão do SO." />
+    <REQUIREMENT NUMBER="6" TITLE="Teste de controle da conta do usuário (UAC)" RATIONALE="A maioria dos aplicativos não requer privilégios do administrador em tempo de execução e deve executar tão bem quanto um usuário padrão. Os aplicativos do Windows devem possuir um manifesto(incorporado ou externo) para definir seu nível de execução, que informa ao SO os privilégios necessários para executar o aplicativo." />
+    <REQUIREMENT NUMBER="7" TITLE="Siga as mensagens do gerenciador de reinicialização do sistema" RATIONALE="Em um encerramento crítico, os aplicativos que retornam de FALSE para WM_QUERYENDSESSION serão enviados WM_ENDSESSION e encerrados, enquanto aqueles que ficaram por um tempo sem resposta WM_QUERYENDSESSION serão encerrados." />
+    <REQUIREMENT NUMBER="8" TITLE="Teste de modo seguro" RATIONALE="Por padrão, a maioria dos drivers e serviços que não vêm pré-instalados com o Windows não é iniciada no Modo de Segurança. Eles devem continuar desabilitados a menos que sejam necessários para operações básicas do sistema ou para recuperação e diagnóstico." />
+    <REQUIREMENT NUMBER="9" TITLE="Teste de sessão multiusuário" RATIONALE="Os usuários devem poder executar sessões simultâneas sem que ocorram conflitos ou interrupções.  Os aplicativos devem garantir que, ao executar em várias sessões, localmente e remotamente, a funcionalidade normal do aplicativo não seja afetada. As configurações do aplicativo e os arquivos de dados não devem persistir entre os usuários. As preferências e a privacidade do usuário devem ser isoladas da sessão do usuário." />
+    <REQUIREMENT NUMBER="10" TITLE="Testes de implantação e inicialização" RATIONALE="Falhas do aplicativo, como panes e travamentos, representam a interrupção mais frequente para usuários e os deixam frustrados. A eliminação de tais falhas aumenta a estabilidade e a confiabilidade do aplicativo e, de maneira geral, oferece uma experiência otimizada com o aplicativo." />
+    <REQUIREMENT NUMBER="11" TITLE="Teste de compatibilidade e resiliência" RATIONALE="Quando o Windows detecta que um aplicativo operou de maneira incompatível, aplica-se uma correção de compatibilidade que faz com que o aplicativo funcione corretamente, garantindo uma experiência positiva ao usuário. Os aplicativos não devem depender desse comportamento, já que este somente é fornecido a fim de permitir que os aplicativos herdados funcionem corretamente no Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="Teste de conformidade do pacote" RATIONALE="No manifesto de pacote, estavam faltando um ou mais dos atributos solicitados.">
+      <TEST INDEX="31" NAME="Manifesto do aplicativo" DESCRIPTION="O manifesto do aplicativo deve incluir entradas válidas para todos os campos solicitados." EXECUTIONTIME="00h:00m:02s.63ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="75" NAME="Tamanho do pacote" DESCRIPTION="O tamanho do arquivo do pacote não deve ser superior a 4 gigabytes." EXECUTIONTIME="00h:00m:02s.19ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Teste de práticas recomendadas de segurança do Windows" RATIONALE="Um aplicativo não deve alterar as configurações de segurança padrão do Windows." />
+    <REQUIREMENT NUMBER="14" TITLE="Teste de recursos de segurança do Windows" RATIONALE="Os aplicativos devem optar pelos recursos de segurança do Windows.">
+      <TEST INDEX="33" NAME="Analisador do binário" DESCRIPTION="Análise dos recursos de segurança habilitados nos binários" EXECUTIONTIME="00h:00m:05s.93ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="Assinatura de código privado" DESCRIPTION="O aplicativo não deve armazenar arquivos de chave com assinaturas de código privado." EXECUTIONTIME="00h:00m:02s.43ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Teste de API compatível" RATIONALE="O aplicativo só deve fazer referência a APIs que o SDK do Windows permite para Aplicativos da Windows Store.">
+      <TEST INDEX="78" NAME="Uso do serviço de notificação" DESCRIPTION="O Aplicativo do Windows Phone deve declarar e usar tecnologias do serviço de notificação correto." EXECUTIONTIME="00h:00m:02s.23ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="72" NAME="APIs com suporte" DESCRIPTION="O Aplicativo do Windows Phone deve usar somente APIs de plataforma com suporte." EXECUTIONTIME="00h:00m:02s.34ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Teste de desempenho" RATIONALE="O aplicativo deve ter uma inicialização rápida e com capacidade de resposta e uma experiência de suspensão, ao mesmo tempo que consome uma quantidade razoável de recursos do sistema (CPU, E/S de arquivo, memória, etc.) a fim de permitir uma rápida comutação e multitarefas entre os aplicativos anteriormente não abertos." />
+    <REQUIREMENT NUMBER="19" TITLE="Testes de recursos de manifesto do aplicativo" RATIONALE="O Manifesto do Pacote de Aplicativo deve ter recursos válidos definidos no arquivo resources.pri, conforme a Especificação do Pacote de Aplicativo e o Esquema de Manifesto de Aplicativo.">
+      <TEST INDEX="61" NAME="Identidade visual" DESCRIPTION="O aplicativo não deve usar imagens padrão armazenadas por amostras do Windows SDK ou Visual Studio." EXECUTIONTIME="00h:00m:03s.68ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Teste de configuração de depuração" RATIONALE="O Aplicativo não deve instalar quaisquer binários de depuração.">
+      <TEST INDEX="46" NAME="Configuração de depuração" DESCRIPTION="O Aplicativo não deve instalar quaisquer binários de depuração." EXECUTIONTIME="00h:00m:02s.72ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="Teste de codificação de arquivo" RATIONALE="Os pacotes que contêm um aplicativo HTML5 da Windows Store devem ter a codificação correta do arquivo." />
+    <REQUIREMENT NUMBER="22" TITLE="Teste de Recursos de Direct3D" RATIONALE="O aplicativo deve usar a funcionalidades Direct3D corretamente." />
+    <REQUIREMENT NUMBER="23" TITLE="Teste de recursos do aplicativo" RATIONALE="Pacotes declarando recursos de uso especial precisarão fornecer justificativas durante o processo de integração." />
+    <REQUIREMENT NUMBER="24" TITLE="Validação de metadados do Tempo de Execução do Windows" RATIONALE="Os metadados precisam estar de acordo e consistentes em todas as origens de geração." />
+    <REQUIREMENT NUMBER="25" TITLE="Teste de integridade de pacote" RATIONALE="Validação do conteúdo do pacote do aplicativo para garantir exatidão.">
+      <TEST INDEX="63" NAME="Arquivos adequados da plataforma" DESCRIPTION="O aplicativo não deve instalar arquivos que não correspondem à arquitetura do processador de destino." EXECUTIONTIME="00h:00m:01s.86ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="76" NAME="Pacote Xap" DESCRIPTION="Os aplicativos do Silverlight devem passar na validação do pacote XAP." EXECUTIONTIME="00h:00m:02s.90ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="26" TITLE="Suporte a DPI alto" RATIONALE="O aplicativo precisa definir o reconhecimento de DPI para garantir que a interface do usuário tenha boa aparência de forma consistente em uma ampla variedade de configurações de vídeo de DPI alto." />
+    <REQUIREMENT NUMBER="27" TITLE="Teste de Uso de Recursos" RATIONALE="Tarefas em segundo plano de WinJS precisam chamar close() para liberar recursos." />
+  </REQUIREMENTS>
+  <APPLICATIONS />
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis Type="Template">
+      <AitFile ErrorCode="0" Name="Farol Beacon.dll" Id="0000b1750c24def1c0dfe83675b66acf23bbd685d9de">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorDllMain" />
+        </AitCategory>
+        <AitCategory Id="DotNet">
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute..ctor" />
+          <AitFeature Name="System.Collections.Generic.IDictionary`2" />
+          <AitFeature Name="System.Collections.Generic.IEnumerable`1" />
+          <AitFeature Name="System.Collections.Generic.IEnumerator`1" />
+          <AitFeature Name="System.Collections.Generic.IReadOnlyCollection`1" />
+          <AitFeature Name="System.Collections.Generic.IReadOnlyList`1" />
+          <AitFeature Name="System.Collections.Generic.List`1" />
+          <AitFeature Name="System.Collections.IEnumerable" />
+          <AitFeature Name="System.Collections.IEnumerator" />
+          <AitFeature Name="System.Collections.IEnumerator.MoveNext" />
+          <AitFeature Name="System.ComponentModel.EditorBrowsableAttribute" />
+          <AitFeature Name="System.ComponentModel.EditorBrowsableAttribute..ctor" />
+          <AitFeature Name="System.ComponentModel.EditorBrowsableState" />
+          <AitFeature Name="System.Convert" />
+          <AitFeature Name="System.Convert.ToInt32" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.Debugger" />
+          <AitFeature Name="System.Diagnostics.Debugger.Break" />
+          <AitFeature Name="System.Diagnostics.Debugger.get_IsAttached" />
+          <AitFeature Name="System.Diagnostics.DebuggerHiddenAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerHiddenAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerStepThroughAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerStepThroughAttribute..ctor" />
+          <AitFeature Name="System.Enum" />
+          <AitFeature Name="System.Enum.Parse" />
+          <AitFeature Name="System.EventHandler`1" />
+          <AitFeature Name="System.Exception" />
+          <AitFeature Name="System.Exception.get_HResult" />
+          <AitFeature Name="System.Globalization.CultureInfo" />
+          <AitFeature Name="System.Guid" />
+          <AitFeature Name="System.IDisposable" />
+          <AitFeature Name="System.IDisposable.Dispose" />
+          <AitFeature Name="System.Int32" />
+          <AitFeature Name="System.Object" />
+          <AitFeature Name="System.Object..ctor" />
+          <AitFeature Name="System.Object.ReferenceEquals" />
+          <AitFeature Name="System.Object.ToString" />
+          <AitFeature Name="System.Reflection.Assembly" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCultureAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCultureAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyVersionAttribute..ctor" />
+          <AitFeature Name="System.Resources.NeutralResourcesLanguageAttribute" />
+          <AitFeature Name="System.Resources.NeutralResourcesLanguageAttribute..ctor" />
+          <AitFeature Name="System.Resources.ResourceManager" />
+          <AitFeature Name="System.Resources.ResourceManager..ctor" />
+          <AitFeature Name="System.Resources.ResourceManager.GetString" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Create" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetException" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetResult" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter`1" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.GuidAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.GuidAttribute..ctor" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute..ctor" />
+          <AitFeature Name="System.RuntimeTypeHandle" />
+          <AitFeature Name="System.String" />
+          <AitFeature Name="System.String.Concat" />
+          <AitFeature Name="System.String.Equals" />
+          <AitFeature Name="System.String.IsNullOrEmpty" />
+          <AitFeature Name="System.Type" />
+          <AitFeature Name="System.Type.GetTypeFromHandle" />
+          <AitFeature Name="System.Type.get_Assembly" />
+          <AitFeature Name="System.Uri" />
+          <AitFeature Name="System.Uri..ctor" />
+          <AitFeature Name="System.UriKind" />
+          <AitFeature Name="System.ValueType" />
+          <AitFeature Name="System.Windows.Application" />
+          <AitFeature Name="System.Windows.Application..ctor" />
+          <AitFeature Name="System.Windows.Application.LoadComponent" />
+          <AitFeature Name="System.Windows.Application.add_UnhandledException" />
+          <AitFeature Name="System.Windows.Application.get_Current" />
+          <AitFeature Name="System.Windows.Application.get_Host" />
+          <AitFeature Name="System.Windows.Application.get_RootVisual" />
+          <AitFeature Name="System.Windows.Application.set_RootVisual" />
+          <AitFeature Name="System.Windows.ApplicationUnhandledExceptionEventArgs" />
+          <AitFeature Name="System.Windows.Controls.Frame" />
+          <AitFeature Name="System.Windows.Controls.Frame.add_Navigated" />
+          <AitFeature Name="System.Windows.Controls.Frame.add_NavigationFailed" />
+          <AitFeature Name="System.Windows.Controls.Frame.remove_Navigated" />
+          <AitFeature Name="System.Windows.Controls.Grid" />
+          <AitFeature Name="System.Windows.Controls.Image" />
+          <AitFeature Name="System.Windows.Controls.ItemsControl" />
+          <AitFeature Name="System.Windows.Controls.ItemsControl.set_ItemsSource" />
+          <AitFeature Name="System.Windows.Controls.ListBox" />
+          <AitFeature Name="System.Windows.Controls.Page" />
+          <AitFeature Name="System.Windows.Controls.Page.OnNavigatedTo" />
+          <AitFeature Name="System.Windows.Controls.Page.get_NavigationService" />
+          <AitFeature Name="System.Windows.Controls.StackPanel" />
+          <AitFeature Name="System.Windows.Controls.TextBlock" />
+          <AitFeature Name="System.Windows.Controls.TextBlock.set_Foreground" />
+          <AitFeature Name="System.Windows.Controls.TextBlock.set_Text" />
+          <AitFeature Name="System.Windows.FlowDirection" />
+          <AitFeature Name="System.Windows.FrameworkElement" />
+          <AitFeature Name="System.Windows.FrameworkElement.FindName" />
+          <AitFeature Name="System.Windows.FrameworkElement.set_FlowDirection" />
+          <AitFeature Name="System.Windows.FrameworkElement.set_Language" />
+          <AitFeature Name="System.Windows.Interop.Settings" />
+          <AitFeature Name="System.Windows.Interop.Settings.set_EnableFrameRateCounter" />
+          <AitFeature Name="System.Windows.Interop.SilverlightHost" />
+          <AitFeature Name="System.Windows.Interop.SilverlightHost.get_Settings" />
+          <AitFeature Name="System.Windows.Markup.XmlLanguage" />
+          <AitFeature Name="System.Windows.Markup.XmlLanguage.GetLanguage" />
+          <AitFeature Name="System.Windows.Media.Brush" />
+          <AitFeature Name="System.Windows.Media.Color" />
+          <AitFeature Name="System.Windows.Media.Colors" />
+          <AitFeature Name="System.Windows.Media.Colors.get_Green" />
+          <AitFeature Name="System.Windows.Media.Colors.get_Red" />
+          <AitFeature Name="System.Windows.Media.SolidColorBrush" />
+          <AitFeature Name="System.Windows.Media.SolidColorBrush..ctor" />
+          <AitFeature Name="System.Windows.MessageBox" />
+          <AitFeature Name="System.Windows.MessageBox.Show" />
+          <AitFeature Name="System.Windows.MessageBoxResult" />
+          <AitFeature Name="System.Windows.Navigation.JournalEntry" />
+          <AitFeature Name="System.Windows.Navigation.NavigatedEventHandler" />
+          <AitFeature Name="System.Windows.Navigation.NavigatedEventHandler..ctor" />
+          <AitFeature Name="System.Windows.Navigation.NavigationEventArgs" />
+          <AitFeature Name="System.Windows.Navigation.NavigationEventArgs.get_NavigationMode" />
+          <AitFeature Name="System.Windows.Navigation.NavigationFailedEventArgs" />
+          <AitFeature Name="System.Windows.Navigation.NavigationFailedEventHandler" />
+          <AitFeature Name="System.Windows.Navigation.NavigationFailedEventHandler..ctor" />
+          <AitFeature Name="System.Windows.Navigation.NavigationMode" />
+          <AitFeature Name="System.Windows.Navigation.NavigationService" />
+          <AitFeature Name="System.Windows.Navigation.NavigationService.Navigate" />
+          <AitFeature Name="System.Windows.RoutedEventArgs" />
+          <AitFeature Name="System.Windows.UIElement" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions.GetAwaiter" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothClassOfDevice" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothClassOfDevice.get_MajorClass" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothClassOfDevice.get_MinorClass" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothDevice" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothDevice.FromIdAsync" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothDevice.get_ClassOfDevice" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothDevice.get_DeviceId" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothLEDevice" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothLEDevice.GetDeviceSelector" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothMajorClass" />
+          <AitFeature Name="Windows.Devices.Bluetooth.BluetoothMinorClass" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.ConvertShortIdToUuid" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.get_Uuid" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.FromIdAsync" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetCharacteristics" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetDeviceSelectorFromUuid" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids" />
+          <AitFeature Name="Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.get_GenericAccess" />
+          <AitFeature Name="Windows.Devices.Enumeration.DeviceInformation" />
+          <AitFeature Name="Windows.Devices.Enumeration.DeviceInformation.FindAllAsync" />
+          <AitFeature Name="Windows.Devices.Enumeration.DeviceInformation.get_Id" />
+          <AitFeature Name="Windows.Devices.Enumeration.DeviceInformationCollection" />
+          <AitFeature Name="Windows.Foundation.IAsyncOperation`1" />
+          <AitFeature Name="Windows.Networking.Proximity.PeerFinder" />
+          <AitFeature Name="Windows.Networking.Proximity.PeerFinder.FindAllPeersAsync" />
+          <AitFeature Name="Windows.Networking.Proximity.PeerFinder.get_AlternateIdentities" />
+          <AitFeature Name="Windows.Networking.Proximity.PeerInformation" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>
