@@ -1,0 +1,36 @@
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\App.g.cs
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\BeaconList.g.cs
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\MainPage.g.cs
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\Farol Beacon.g.resources
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\Farol_Beacon.Resources.AppResources.resources
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\Farol Beacon.csproj.GenerateResource.Cache
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\ApplicationIcon.png
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Farol Beacon.dll
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Farol Beacon.pdb
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\AppManifest.xaml
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Properties\WMAppManifest.xml
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\Farol Beacon.dll
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\Farol Beacon.pdb
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\XapCacheFile.xml
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\resources.pri
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\AppxManifest.xml
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Farol Beacon.build.appxrecipe
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\Bin\Debug\Farol Beacon_Debug_AnyCPU.xap
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\priconfig.xml
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\priconfig.xml.intermediate
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\layout.resfiles
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\layout.resfiles.intermediate
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\resources.resfiles
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\resources.resfiles.intermediate
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\pri.resfiles
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\pri.resfiles.intermediate
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\qualifiers.txt
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\qualifiers.txt.intermediate
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\ProjectArchitectures.txt
+D:\Menvia\projetos\FarolBeacon\FarolBeacon\Farol Beacon\obj\Debug\MDILProjectFiles.xml
