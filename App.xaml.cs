@@ -6,9 +6,9 @@ using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Farol_Beacon.Resources;
+using com.menvia.farol.Resources;
 
-namespace Farol_Beacon
+namespace com.menvia.farol
 {
     public partial class App : Application
     {

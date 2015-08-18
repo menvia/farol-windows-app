@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Farol_Beacon.Resources {
+namespace com.menvia.farol.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Farol_Beacon.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Farol_Beacon.Resources.AppResources", typeof(AppResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("com.menvia.farol.Resources.AppResources", typeof(AppResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -88,6 +88,33 @@ namespace Farol_Beacon.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SCAN FOR BEACONS.
+        /// </summary>
+        public static string btnScanBeacons {
+            get {
+                return ResourceManager.GetString("btnScanBeacons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to device(s) found..
+        /// </summary>
+        public static string msgDevicesFound {
+            get {
+                return ResourceManager.GetString("msgDevicesFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No devices found..
+        /// </summary>
+        public static string msgNoDevicesFound {
+            get {
+                return ResourceManager.GetString("msgNoDevicesFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {
@@ -102,6 +129,87 @@ namespace Farol_Beacon.Resources {
         public static string ResourceLanguage {
             get {
                 return ResourceManager.GetString("ResourceLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to home.
+        /// </summary>
+        public static string textHomeScreen {
+            get {
+                return ResourceManager.GetString("textHomeScreen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to beacon list.
+        /// </summary>
+        public static string textListScreen {
+            get {
+                return ResourceManager.GetString("textListScreen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to not supported.
+        /// </summary>
+        public static string txtBLENotSupported {
+            get {
+                return ResourceManager.GetString("txtBLENotSupported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to supported.
+        /// </summary>
+        public static string txtBLESupported {
+            get {
+                return ResourceManager.GetString("txtBLESupported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to disabled.
+        /// </summary>
+        public static string txtBluetoothDisabled {
+            get {
+                return ResourceManager.GetString("txtBluetoothDisabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enabled.
+        /// </summary>
+        public static string txtBluetoothEnabled {
+            get {
+                return ResourceManager.GetString("txtBluetoothEnabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use this app to locate beacons around you, measure distance to a beacon and get other relevant information about them..
+        /// </summary>
+        public static string txtDescApp {
+            get {
+                return ResourceManager.GetString("txtDescApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Major.
+        /// </summary>
+        public static string txtMajor {
+            get {
+                return ResourceManager.GetString("txtMajor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minor.
+        /// </summary>
+        public static string txtMinor {
+            get {
+                return ResourceManager.GetString("txtMinor", resourceCulture);
             }
         }
     }

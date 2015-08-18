@@ -1,6 +1,6 @@
-﻿using Farol_Beacon.Resources;
+﻿using com.menvia.farol.Resources;
 
-namespace Farol_Beacon
+namespace com.menvia.farol
 {
     /// <summary>
     /// Provides access to string resources.

@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{57e37911-a1ef-4ae0-8219-b62649883945}" Title="Farol" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Farol_Beacon author" Description="Sample description" Publisher="Farol_Beacon" PublisherID="{24b4209d-5699-4560-8454-d8ca02e6d114}">
+  <Languages xmlns="">
+    <Language code="es" />
+    <Language code="pt" />
+  </Languages>
+  <App xmlns="" ProductID="{57e37911-a1ef-4ae0-8219-b62649883945}" Title="Farol" RuntimeType="Silverlight" Version="1.1.0.0" Genre="apps.normal" Author="Menvia" Description="Farol app" Publisher="Menvia" PublisherID="{24b4209d-5699-4560-8454-d8ca02e6d114}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

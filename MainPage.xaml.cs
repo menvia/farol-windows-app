@@ -7,14 +7,14 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Farol_Beacon.Resources;
+using com.menvia.farol.Resources;
 using Windows.Networking.Proximity;
 using System.Windows.Media;
 using Windows.Devices;
 using Microsoft.Devices;
 using Windows.Devices.Bluetooth;
 
-namespace Farol_Beacon
+namespace com.menvia.farol
 {
     public partial class MainPage : PhoneApplicationPage
     {
@@ -42,14 +42,16 @@ namespace Farol_Beacon
             try
             {
                 var peers = await PeerFinder.FindAllPeersAsync();
-                txtBluetooth.Text = "enabled";
+                //txtBluetooth.Text = "enabled";
+				txtBluetooth.Text = AppResources.txtBluetoothEnabled;
                 txtBluetooth.Foreground = new SolidColorBrush(Colors.Green);
             }
             catch (Exception ex)
             {
                 if ((uint)ex.HResult == 0x8007048F)
                 {
-                    txtBluetooth.Text = "disabled";
+                    //txtBluetooth.Text = "disabled";
+					txtBluetooth.Text = AppResources.txtBluetoothDisabled;
                     txtBluetooth.Foreground = new SolidColorBrush(Colors.Red);
                 }
             }            
@@ -62,19 +64,22 @@ namespace Farol_Beacon
                 string ble = BluetoothLEDevice.GetDeviceSelector();
                 if (string.IsNullOrEmpty(ble))
                 {
-                    txtBLE.Text = "not supported";
+                    //txtBLE.Text = "not supported";
+					txtBLE.Text = AppResources.txtBLENotSupported;
                     txtBLE.Foreground = new SolidColorBrush(Colors.Red);
                 }
                 else
                 {
-                    txtBLE.Text = "supported";
+                    //txtBLE.Text = "supported";
+					txtBLE.Text = AppResources.txtBLESupported;
                     txtBLE.Foreground = new SolidColorBrush(Colors.Green);
                 }
             }
             catch
             {
-                txtBLE.Text = "supported";
-                txtBLE.Foreground = new SolidColorBrush(Colors.Green);
+                //txtBLE.Text = "not supported";
+				txtBLE.Text = AppResources.txtBLENotSupported;
+                txtBLE.Foreground = new SolidColorBrush(Colors.Red);
             }            
         }
 

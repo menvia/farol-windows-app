@@ -11,8 +11,9 @@ using Windows.Devices.Enumeration;
 using Windows.Devices.Bluetooth.GenericAttributeProfile;
 using Windows.Devices.Bluetooth;
 using System.Collections.ObjectModel;
+using com.menvia.farol.Resources;
 
-namespace Farol_Beacon
+namespace com.menvia.farol
 {    
     public partial class BeaconList : PhoneApplicationPage
     {        
@@ -52,7 +53,8 @@ namespace Farol_Beacon
 			if (objListBeacon != null && objListBeacon.Count > 0)
 				listBoxBeacons.ItemsSource = objListBeacon;
 			else
-				MessageBox.Show("No devices found.");
+				MessageBox.Show(AppResources.msgNoDevicesFound);
+				//MessageBox.Show("No devices found.");
 		}
 
         private async void BuscarBLE2()
@@ -63,12 +65,14 @@ namespace Farol_Beacon
             //variável devices, no Lumia 720 sempre está sem nenhum dispositivo.
             if (devices.Count == 0)
             {
-                MessageBox.Show("No device found.");
+                //MessageBox.Show("No device found.");				
+				MessageBox.Show(AppResources.msgNoDevicesFound);
                 return;
             }
 			else
 			{
-				MessageBox.Show(devices.Count + " device(s) found.");
+				//MessageBox.Show(devices.Count + " device(s) found.");
+				MessageBox.Show(devices.Count + AppResources.msgDevicesFound);
 			}
 
             objListBeacon = new List<Beacon>();

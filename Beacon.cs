@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.Devices.Bluetooth;
 using Windows.Networking.Proximity;
-using Windows.Devices;
-using Microsoft.Devices;
-using Windows.Devices.Bluetooth;
-namespace Farol_Beacon
+
+namespace com.menvia.farol
 {
     public class Beacon
     {
