@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="27555Menvia.Farol" Publisher="CN=8F06549A-20D9-4C81-8ACD-6EBA18274FAD" Version="1.1.0.0" />
+  <Identity Name="27555Menvia.Farol" Publisher="CN=8F06549A-20D9-4C81-8ACD-6EBA18274FAD" Version="1.1.1.0" />
   <mp:PhoneIdentity PhoneProductId="57e37911-a1ef-4ae0-8219-b62649883945" PhonePublisherId="24b4209d-5699-4560-8454-d8ca02e6d114" />
   <Properties>
     <DisplayName>Farol</DisplayName>

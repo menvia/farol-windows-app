@@ -5,7 +5,7 @@
     <Language code="es" />
     <Language code="pt" />
   </Languages>
-  <App xmlns="" ProductID="{57e37911-a1ef-4ae0-8219-b62649883945}" Title="Farol" RuntimeType="Silverlight" Version="1.1.0.0" Genre="apps.normal" Author="Menvia" Description="Farol app" Publisher="Menvia" PublisherID="{24b4209d-5699-4560-8454-d8ca02e6d114}">
+  <App xmlns="" ProductID="{57e37911-a1ef-4ae0-8219-b62649883945}" Title="Farol" RuntimeType="Silverlight" Version="1.1.1.0" Genre="apps.normal" Author="Menvia" Description="Farol app" Publisher="Menvia" PublisherID="{24b4209d-5699-4560-8454-d8ca02e6d114}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
