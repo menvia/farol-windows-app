@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
+﻿using com.menvia.farol.Resources;
 using Microsoft.Phone.Controls;
-using Microsoft.Phone.Shell;
-using Windows.Devices.Enumeration;
-using Windows.Devices.Bluetooth.GenericAttributeProfile;
+using System;
+using System.Collections.Generic;
+using System.Windows;
+using System.Windows.Navigation;
 using Windows.Devices.Bluetooth;
-using System.Collections.ObjectModel;
-using com.menvia.farol.Resources;
+using Windows.Devices.Bluetooth.GenericAttributeProfile;
+using Windows.Devices.Enumeration;
 
 namespace com.menvia.farol
 {    
